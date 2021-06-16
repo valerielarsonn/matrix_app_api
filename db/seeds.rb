@@ -7,8 +7,12 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Character.create([
-    { name: "Neo", description: "Neo description" },
-    { name: "Trinity", description: "Trinity description" },
-    { name: "Morpheus", description: "Morpheus description" },
-    { name: "Agent Smith", description: "Agent Smith description" }
+    { name: "Neo", description: "Neo description", vehicle_id: 2 },
+    { name: "Trinity", description: "Trinity description", vehicle_id: 1},
+    { name: "Morpheus", description: "Morpheus description", vehicle_id: 1},
+    { name: "Agent Smith", description: "Agent Smith description", vehicle_id: 3}
+])
+
+Vehicle.create([
+    { name: "Nebuchadnezzar", style: "Spaceship"}
 ])
